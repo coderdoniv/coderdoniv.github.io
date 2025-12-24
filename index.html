@@ -1,28 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>vbverse</title>
-
+    <meta name="description"
+        content="vbverse — apps, tools, and long-term explorations built under the developer identity coderdoniv." />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
+    <header class="topbar">
+        <div class="container topbar__inner">
+            <a class="brand" href="index.html" aria-label="vbverse home">
+                <span class="brand__mark"><img src="assets/vbverse-logo.webp" alt="vbverse logo"
+                        style="height: 1.5em; width: 1.5em; vertical-align: middle;"></span>
+                <span class="brand__name">vbverse</span>
+            </a>
 
-    <header class="site-header">
-        <h1>vbverse</h1>
-        <p>Apps, tools, and long-term explorations</p>
+            <nav class="nav">
+                <a class="nav__link is-active" href="index.html">Home</a>
+                <a class="nav__link" href="projects.html">Projects</a>
+                <a class="nav__link" href="https://github.com/coderdoniv" target="_blank" rel="noreferrer">GitHub</a>
+                <!-- Add your LinkedIn later -->
+                <!-- <a class="nav__link" href="https://linkedin.com/in/..." target="_blank" rel="noreferrer">LinkedIn</a> -->
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>Projects</h2>
-            <p>This site showcases selected apps and tools I’ve built over time.</p>
+        <section class="hero">
+            <div class="container hero__inner">
+                <h1 class="hero__title">vbverse</h1>
+                <p class="hero__subtitle">
+                    Personal hub for apps, tools, and experiments I build under my developer identity,
+                    <strong>coderdoniv</strong>.
+                </p>
+
+                <div class="hero__meta">
+                    <a class="pill" href="projects.html">View full timeline →</a>
+                </div>
+            </div>
+
+            <div class="hero__bg" aria-hidden="true"></div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Projects</h2>
+                    <p class="section__desc">A curated set of shipped apps and current builds. (Full index on the
+                        Projects page.)</p>
+                </div>
+
+                <div class="grid">
+                    <!-- DumbCy -->
+                    <article class="card">
+                        <div class="card__top">
+                            <h3 class="card__title"
+                                style="display: flex; align-items: center; justify-content: space-between; gap: 0.5em;">
+                                <span style="display: flex; align-items: center;">
+                                    <img src="assets/dumbcy-logo.png" alt="DumbCy logo" class="card__logo"
+                                        style="height: 2.2em; width: 2.2em; vertical-align: middle; margin-right: 0.5em; border-radius: 12px;">
+                                    DumbCy
+                                </span>
+                                <span>
+                                    <div class="badge">Live</div>
+                                </span>
+                            </h3>
+                            <p class="card__desc">A charades-style mobile game designed for quick group play.</p>
+                        </div>
+
+                        <div class="card__meta">
+                            <p class="note">Featured on Embarcadero’s official blog.</p>
+                            <!-- Optional: link the mention -->
+                            <a class="tiny-link"
+                                href="https://blogs.embarcadero.com/delphi-displays-flexibility-with-exciting-dumbcy-charades-app-for-android/"
+                                target="_blank" rel="noreferrer">Read article →</a>
+                        </div>
+
+                        <div class="card__actions">
+                            <a class="btn"
+                                href="https://play.google.com/store/apps/details?id=com.coderdoniv.DumbCy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                                target="_blank" rel="noreferrer">Play Store</a>
+                            <a class="btn btn--ghost" href="https://dumbcyapp.github.io/" target="_blank"
+                                rel="noreferrer">App Page</a>
+                        </div>
+                    </article>
+
+                    <!-- Athenion -->
+                    <article class="card">
+                        <div class="card__top">
+                            <h3 class="card__title"
+                                style="display: flex; align-items: center; justify-content: space-between; gap: 0.5em;">
+                                <span style="display: flex; align-items: center;">
+                                    <img src="assets/athenion-logo.png" alt="Athenion logo" class="card__logo"
+                                        style="height: 2.2em; width: 2.2em; vertical-align: middle; margin-right: 0.5em; border-radius: 12px;">
+                                    Athenion
+                                </span>
+                                <span>
+                                    <div class="badge badge--amber">In development</div>
+                                </span>
+                            </h3>
+                            <p class="card__desc">A task and time tracking app focused on meaningful weekly insights.
+                            </p>
+                        </div>
+
+                        <div class="card__meta">
+                            <p class="note">Currently being built. Updates and previews will be shared as it evolves.
+                            </p>
+                        </div>
+
+                        <div class="card__actions">
+                            <a class="btn btn--ghost" href="projects.html#athenion">View on timeline</a>
+                        </div>
+                    </article>
+
+                    <!-- DevTron -->
+                    <article class="card">
+                        <div class="card__top">
+                            <h3 class="card__title"
+                                style="display: flex; align-items: center; justify-content: space-between; gap: 0.5em;">
+                                <span style="display: flex; align-items: center;">
+                                    <img src="assets/devtron-logo.png" alt="DevTron logo" class="card__logo"
+                                        style="height: 2.2em; width: 2.2em; vertical-align: middle; margin-right: 0.5em; border-radius: 12px;">
+                                    DevTron
+                                </span>
+                                <span>
+                                    <div class="badge badge--violet">Experimental</div>
+                                </span>
+                            </h3>
+                            <p class="card__desc">An experimental developer tool for issue analysis and insights.</p>
+                        </div>
+
+                        <div class="card__meta">
+                            <p class="note">Idea and direction are mine; implementation was AI-assisted where noted.</p>
+                        </div>
+
+                        <div class="card__actions">
+                            <a class="btn" href="https://github.com/coderdoniv/devtron" target="_blank"
+                                rel="noreferrer">GitHub</a>
+                            <a class="btn btn--ghost" href="projects.html#devtron">View on timeline</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
     </main>
 
+    <footer class="footer">
+        <div class="container footer__inner">
+            <span class="muted">© <span id="y"></span> vbverse</span>
+            <span class="muted"><img src="assets/coderdoniv-logo.png" alt="coderdoniv logo"
+                    style="height: 1.4em; vertical-align: middle;"> </span>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
