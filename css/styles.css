@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0f1115;
+    color: #eaeaea;
+}
+
+.site-header {
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.site-header p {
+    opacity: 0.7;
+    margin-top: 12px;
+}
