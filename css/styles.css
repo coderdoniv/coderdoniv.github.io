@@ -104,6 +104,9 @@
 html,
 body {
     height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -125,6 +128,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    flex: 1;
 }
 
 a {
@@ -290,6 +294,7 @@ h3 {
 /* Sections */
 .section {
     padding: 48px 0;
+    flex: 1;
     /* Removed overlay, background handled by html/body for seamless effect */
 }
 
@@ -429,6 +434,7 @@ h3 {
 .footer {
     border-top: 1px solid rgba(233, 238, 246, .08);
     padding: 20px 0;
+    margin-top: auto;
 }
 
 .footer__inner {
