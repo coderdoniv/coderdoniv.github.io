@@ -1,3 +1,29 @@
+/* About VBVerse section styles */
+.about-vbverse-section {
+    padding: 10px 0 8px;
+    background: none;
+    margin-top: 1.75rem;
+}
+
+.about-vbverse {
+    max-width: 80ch;
+    /* comfortable line length */
+    margin: 0 auto;
+    /* center within container */
+}
+
+.about-vbverse p {
+    font-size: 1.02rem;
+    line-height: 1.75;
+    margin: 0 0 1.05rem;
+    color: var(--text);
+}
+
+.about-vbverse p.lead {
+    font-size: 1.06rem;
+    color: rgba(233, 238, 246, .95);
+}
+
 .origin-card {
     grid-column: 2 !important;
 
@@ -226,7 +252,7 @@ h3 {
 /* Hero */
 .hero {
     position: relative;
-    padding: 72px 0 54px;
+    padding: 64px 0 40px;
     overflow: hidden;
 }
 
@@ -293,7 +319,7 @@ h3 {
 
 /* Sections */
 .section {
-    padding: 48px 0;
+    padding: 12px 0;
     flex: 1;
     /* Removed overlay, background handled by html/body for seamless effect */
 }
