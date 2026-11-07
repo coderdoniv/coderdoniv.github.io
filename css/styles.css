@@ -469,6 +469,19 @@ h3 {
     flex-wrap: wrap;
 }
 
+/* vbverse office: its policy, terms and YouTube (the YouTube API audit, 7 Nov 2026) */
+.footer__office {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.footer__youtube img {
+    height: 32px; /* the logo file carries its own clear space */
+    vertical-align: middle;
+}
+
 /* Timeline */
 .timeline {
     position: relative;
